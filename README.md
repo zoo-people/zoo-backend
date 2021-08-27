@@ -1,3 +1,6 @@
+![flow](https://user-images.githubusercontent.com/83792867/131194420-7847c1cd-23c1-4c84-aa42-2f289e1493f7.png)
+
+
 # Create Alchemy SQL BE
 
 ## Getting started
