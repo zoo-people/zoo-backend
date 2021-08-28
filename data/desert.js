@@ -1,6 +1,5 @@
 module.export = [
-  { id: 1,
-    name: 'Camel',
+  { name: 'Camel',
     species_name: '(Camelus ferus)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Wild_Bactrian_camel_on_road_east_of_Yarkand.jpg/440px-Wild_Bactrian_camel_on_road_east_of_Yarkand.jpg',
@@ -8,8 +7,7 @@ module.export = [
     description: 'A camel is an even-toed ungulate that bears distinctive fatty deposits known as "humps" on its back. Camels have long been domesticated and, as livestock, they provide food (milk and meat) and textiles (fiber and felt from hair). Camels are working animals especially suited to their desert habitat and are a vital means of transport for passengers and cargo.',
     diet: 'herbivore' },
 
-  { id: 2,
-    name: 'Sand Cat',
+  { name: 'Sand Cat',
     species_name: '(Felis Margarita)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Persian_sand_CAT.jpg/440px-Persian_sand_CAT.jpg',
@@ -18,8 +16,7 @@ module.export = [
     diet: 'omnivore' },
 
 
-  { id: 3,
-    name: 'Desert Hedgehog',
+  { name: 'Desert Hedgehog',
     species_name: '(Paraechinus aethiopicus)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Desert_Hedgehog.png/440px-Desert_Hedgehog.png',
@@ -27,8 +24,7 @@ module.export = [
     description: 'The desert hedgehog is one of the smallest of hedgehogs. If desert hedgehogs are threatened, their muscles go tight and pull the outer layer of skin around the body, making their quills stick out in all directions. The quills tend to be longer than other hedgehogs for better protection against predation. As such it is extremely difficult to catch one.',
     diet: 'insectivorous' },
 
-  { id: 4,
-    name: 'Meerkats',
+  { name: 'Meerkats',
     species_name: '(Suricata suricatta)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/440px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg',
@@ -36,8 +32,7 @@ module.export = [
     description: 'The meerkat is a small mongoose of slim build characterised by a broad head, large eyes, a pointed snout, long legs, a thin tapering tail and a brindled coat pattern. It is smaller than most other mongooses except the dwarf mongooses and possibly Galerella species.',
     diet: 'omnivore' },
     
-  { id: 5,
-    name: 'Kalahari Lion',
+  { name: 'Kalahari Lion',
     species_name: '(Panthera leo melanochaita)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Lions_on_rock-2.jpg/400px-Lions_on_rock-2.jpg',
