@@ -1,7 +1,7 @@
 module.export = [
   { id: 1,
     name: 'Camel',
-    species_name: 'Camelus ferus',
+    species_name: '(Camelus ferus)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Wild_Bactrian_camel_on_road_east_of_Yarkand.jpg/440px-Wild_Bactrian_camel_on_road_east_of_Yarkand.jpg',
     icon_url: '',
@@ -10,7 +10,7 @@ module.export = [
 
   { id: 2,
     name: 'Sand Cat',
-    species_name: 'Felis Margarita',
+    species_name: '(Felis Margarita)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Persian_sand_CAT.jpg/440px-Persian_sand_CAT.jpg',
     icon_url: '',
@@ -20,7 +20,7 @@ module.export = [
 
   { id: 3,
     name: 'Desert Hedgehog',
-    species_name: 'Paraechinus aethiopicus',
+    species_name: '(Paraechinus aethiopicus)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Desert_Hedgehog.png/440px-Desert_Hedgehog.png',
     icon_url: '',
@@ -29,7 +29,7 @@ module.export = [
 
   { id: 4,
     name: 'Meerkats',
-    species_name: 'Suricata suricatta',
+    species_name: '(Suricata suricatta)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/440px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg',
     icon_url: '',
@@ -38,7 +38,7 @@ module.export = [
     
   { id: 5,
     name: 'Kalahari Lion',
-    species_name: 'Panthera leo melanochaita',
+    species_name: '(Panthera leo melanochaita)',
     habitat: 'Desert',
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Lions_on_rock-2.jpg/400px-Lions_on_rock-2.jpg',
     icon_url: '',
