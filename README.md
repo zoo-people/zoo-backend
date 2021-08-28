@@ -43,3 +43,11 @@ const authRoutes = createAuthRoutes({
     }
 });
 ```
+
+//Twitter icon link
+https://www.flaticon.com/free-icon/twitter_1384033
+//Facebook icon link
+https://image.flaticon.com/icons/png/128/1384/1384021.png
+//LinkedIn icon link
+https://image.flaticon.com/icons/png/128/1384/1384030.png
+//
