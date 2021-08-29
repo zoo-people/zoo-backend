@@ -38,9 +38,8 @@ async function run() {
 
     
 
-    await Promise
-      
-    const user = users[0].rows[0];
+  
+    // const user = users[0].rows[0];
 
     
 
