@@ -2,7 +2,11 @@ module.export = [
   {
     name: 'Beaver',
     species_name: '(Castor canadensis)',
+<<<<<<< HEAD:data/forest.js
     habitat_id: 5,
+=======
+    habitat: 'Evergreen Forest',
+>>>>>>> 667e9a6df623939f6ec10b276e8b431dcbb28284:data/habitats/forest.js
     image_url: 'https://en.wikipedia.org/wiki/North_American_beaver#/media/File:American_Beaver.jpg',
     icon_url: 'https://image.flaticon.com/icons/png/512/427/427421.png',
     description: `The beaver is the largest semiaquatic rodent in North America. The beaver possesses 
@@ -16,7 +20,11 @@ module.export = [
   {
     name: 'Brown Bear',
     species_name: '(Ursus arctos)',
+<<<<<<< HEAD:data/forest.js
     habitat_id: 5,
+=======
+    habitat: 'Evergreen Forest',
+>>>>>>> 667e9a6df623939f6ec10b276e8b431dcbb28284:data/habitats/forest.js
     image_url: 'https://en.wikipedia.org/wiki/Brown_bear#/media/File:Ursus_arctos_-_Norway.jpg',
     icon_url: 'https://image.flaticon.com/icons/png/512/427/427459.png',
     description: `The brown bear is a large bear species found across Eurasia and North America.
@@ -28,7 +36,11 @@ module.export = [
   {
     name: 'Chipmunk',
     species_name: '(Tamias striatus)',
+<<<<<<< HEAD:data/forest.js
     habitat_id: 5,
+=======
+    habitat: 'Evergreen Forest',
+>>>>>>> 667e9a6df623939f6ec10b276e8b431dcbb28284:data/habitats/forest.js
     image_url: 'https://en.wikipedia.org/wiki/Chipmunk#/media/File:Tamia_striatus_eating.jpg',
     icon_url: 'https://image.flaticon.com/icons/png/512/3504/3504482.png',
     description: `Chipmunks are small, striped rodents of the family Sciuridae. Chipmunks are found in North America, 
@@ -43,7 +55,11 @@ module.export = [
   {
     name: 'Moose',
     species_name: '(Alces alces)',
+<<<<<<< HEAD:data/forest.js
     habitat_id: 5,
+=======
+    habitat: 'Evergreen Forest',
+>>>>>>> 667e9a6df623939f6ec10b276e8b431dcbb28284:data/habitats/forest.js
     image_url: 'https://en.wikipedia.org/wiki/Moose#/media/File:Moose_983_LAB.jpg',
     icon_url: 'https://image.flaticon.com/icons/png/512/2219/2219774.png',
     description: `The moose (in North America) or elk (in Eurasia) (Alces alces), is a member of the New World deer 
@@ -59,7 +75,11 @@ module.export = [
   {
     name: 'Wolf',
     species_name: '(Canis lupus)',
+<<<<<<< HEAD:data/forest.js
     habitat_id: 5,
+=======
+    habitat: 'Evergreen Forest',
+>>>>>>> 667e9a6df623939f6ec10b276e8b431dcbb28284:data/habitats/forest.js
     image_url: 'https://en.wikipedia.org/wiki/Wolf#/media/File:Front_view_of_a_resting_Canis_lupus_ssp.jpg',
     icon_url: 'https://image.flaticon.com/icons/png/512/4082/4082069.png',
     description: `Of all members of the genus Canis, the wolf is most specialized for cooperative game hunting as demonstrated by its physical 

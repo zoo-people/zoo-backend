@@ -17,12 +17,22 @@ async function run() {
                     email VARCHAR(256) NOT NULL,
                     hash VARCHAR(512) NOT NULL
                 );           
-                CREATE TABLE animals (
-                    id SERIAL PRIMARY KEY NOT NULL,
-                    name VARCHAR(512) NOT NULL,
-                    cool_factor INTEGER NOT NULL,
-                    owner_id INTEGER NOT NULL REFERENCES users(id)
-            );
+                  
+              CREATE TABLE habitats (
+                    id SERIAL PRIMARY KEY,
+                    name VARCHAR(256) NOT NULL,
+                    image VARCHAR(1200)
+              );
+              CREATE TABLE animals (
+                  id SERIAL PRIMARY KEY,
+                  name VARCHAR(1200) NOT NULL,
+                  species_name VARCHAR(1200) NOT NULL,
+                  habitat_id INTEGER NOT NULL REFERENCES habitats(id),
+                  image_url VARCHAR(1200) NOT NULL,
+                  icon_url VARCHAR(1200) NOT NULL,
+                  description VARCHAR(1200) NOT NULL,
+                  diet VARCHAR(256) NOT NULL
+              );
         `);
 
     console.log('create tables complete', getEmoji(), getEmoji(), getEmoji());
