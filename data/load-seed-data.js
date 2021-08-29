@@ -1,7 +1,7 @@
 const bcrypt = require('bcryptjs');
 const client = require('../lib/client');
 // import our seed data:
-
+const habitatData = require('./habitats.js');
 const usersData = require('./users.js');
 const { getEmoji } = require('../lib/emoji.js');
 run();
@@ -11,7 +11,7 @@ async function run() {
   try {
     await client.connect();
 
-    const users = await Promise.all(
+    await Promise.all(
       usersData.map(user => {
         const hash = bcrypt.hashSync(user.password, 8);
         return client.query(`
@@ -22,8 +22,25 @@ async function run() {
         [user.email, hash]);
       })
     );
+
+    await Promise.all(
+      habitatData.map(habitat => {
+        return client.query(
+          `
+          INSERT INTO habitats (name, image)
+          VALUES ($1, $2)
+          RETURNING *;
+          `,
+          [habitat.name, habitat.image]
+        );
+      })
+    );
+
+    
+
+    await Promise
       
-    // const user = users[0].rows[0];
+    const user = users[0].rows[0];
 
     
 
