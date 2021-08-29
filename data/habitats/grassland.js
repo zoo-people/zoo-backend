@@ -2,7 +2,7 @@ module.export = [
 
   {
     
-    id: 1,
+ 
     name: 'Red Fox',
     species_name: 'Vulpes vulpes',
     habitat: 'Grassland',
@@ -16,7 +16,7 @@ module.export = [
   },
   {
     
-    id: 2,
+  
     name: 'African leopard ',
     species_name: 'Panthera pardus pardus',
     habitat: 'Grassland',
@@ -31,7 +31,7 @@ module.export = [
     
   {
     
-    id: 3,
+
     name: 'Spotted Hyena',
     species_name: 'Crocuta crocuta',
     habitat: 'Grassland',
@@ -43,7 +43,7 @@ module.export = [
   },
   {
     
-    id: 4,
+  
     name: 'Ball Python',
     species_name: 'Python regius',
     habitat: 'Grassland',
@@ -55,7 +55,7 @@ module.export = [
   },
   {
     
-    id: 5,
+ 
     name: 'Honey Badger',
     species_name: 'Mellivora capensis',
     habitat: 'Grassland',
