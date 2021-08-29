@@ -4,7 +4,7 @@ module.export = [
         species_name: '(Castor canadensis)',
         habitat: 'Evergreen Forest',
         image_url: 'https://en.wikipedia.org/wiki/North_American_beaver#/media/File:American_Beaver.jpg',
-        icon_url: '',
+        icon_url: 'https://image.flaticon.com/icons/png/512/427/427421.png',
         description: `The beaver is the largest semiaquatic rodent in North America. The beaver possesses 
         continuously (or endlessly) growing incisors. Beavers are active mainly at night. They are excellent 
         swimmers and may remain submerged up to 15 minutes. More vulnerable on land, they tend to remain in 
@@ -18,7 +18,7 @@ module.export = [
         species_name: '(Ursus arctos)',
         habitat: 'Evergreen Forest',
         image_url: 'https://en.wikipedia.org/wiki/Brown_bear#/media/File:Ursus_arctos_-_Norway.jpg',
-        icon_url: '',
+        icon_url: 'https://image.flaticon.com/icons/png/512/427/427459.png',
         description: `The brown bear is a large bear species found across Eurasia and North America.
         In North America, the populations of brown bears are called grizzly bears, while the subspecies
         that inhabits the Kodiak Islands of Alaska is known as the Kodiak bear. It is one of the largest 
@@ -30,7 +30,7 @@ module.export = [
         species_name: '(Tamias striatus)',
         habitat: 'Evergreen Forest',
         image_url: 'https://en.wikipedia.org/wiki/Chipmunk#/media/File:Tamia_striatus_eating.jpg',
-        icon_url: '',
+        icon_url: 'https://image.flaticon.com/icons/png/512/3504/3504482.png',
         description: `Chipmunks are small, striped rodents of the family Sciuridae. Chipmunks are found in North America, 
         with the exception of the Siberian chipmunk which is found primarily in Asia. These small mammals fulfill several 
         important functions in forest ecosystems. Their activities harvesting and hoarding tree seeds play a crucial role
@@ -45,7 +45,7 @@ module.export = [
         species_name: '(Alces alces)',
         habitat: 'Evergreen Forest',
         image_url: 'https://en.wikipedia.org/wiki/Moose#/media/File:Moose_983_LAB.jpg',
-        icon_url: '',
+        icon_url: 'https://image.flaticon.com/icons/png/512/2219/2219774.png',
         description: `The moose (in North America) or elk (in Eurasia) (Alces alces), is a member of the New World deer 
         subfamily and is the largest and heaviest extant species in the deer family. Most adult male moose have distinctive
         broad, palmate ("open-hand shaped") antlers; most other members of the deer family have antlers with a dendritic 
@@ -61,7 +61,7 @@ module.export = [
         species_name: '(Canis lupus)',
         habitat: 'Evergreen Forest',
         image_url: 'https://en.wikipedia.org/wiki/Wolf#/media/File:Front_view_of_a_resting_Canis_lupus_ssp.jpg',
-        icon_url: '',
+        icon_url: 'https://image.flaticon.com/icons/png/512/4082/4082069.png',
         description: `Of all members of the genus Canis, the wolf is most specialized for cooperative game hunting as demonstrated by its physical 
         adaptations to tackling large prey, its more social nature, and its highly advanced expressive behaviour. It travels in nuclear families 
         consisting of a mated pair accompanied by their offspring. Offspring may leave to form their own packs on the onset of sexual maturity and 
