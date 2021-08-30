@@ -35,9 +35,7 @@ async function run() {
               );
               CREATE TABLE zoos (
                 user_id INTEGER NOT NULL REFERENCES users(id),
-                animal_id INTEGER NOT NULL REFERENCES animals(id),
-                
-               
+                animal_id INTEGER NOT NULL REFERENCES animals(id)
               )
         `);
 
