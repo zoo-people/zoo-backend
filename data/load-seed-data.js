@@ -3,6 +3,7 @@ const client = require('../lib/client');
 // import our seed data:
 const habitatData = require('./habitats.js');
 const animalData = require('./animals.js');
+const zooData = require('./zoos.js');
 const usersData = require('./users.js');
 const { getEmoji } = require('../lib/emoji.js');
 run();
@@ -12,15 +13,15 @@ async function run() {
   try {
     await client.connect();
 
-    await Promise.all(
+    const users = await Promise.all(
       usersData.map(user => {
-        const hash = bcrypt.hashSync(user.password, 8);
+        // const hash = bcrypt.hashSync(user.password, 8);
         return client.query(`
                       INSERT INTO users (email, hash)
                       VALUES ($1, $2)
                       RETURNING *;
                   `,
-        [user.email, hash]);
+        [user.email, user.hash]);
       })
     );
 
@@ -63,7 +64,23 @@ async function run() {
       })
     );
 
-    // const user = users[0].rows[0];
+    const user = users[0].rows[0];
+
+    await Promise.all(
+      zooData.map(zoo => {
+        return client.query(
+          `
+          INSERT INTO zoos (
+            user_id,
+            animal_id
+          )
+          VALUES ($1, $2)
+          RETURNING *;
+          `,
+          [user.id, zoo.animal_id]
+        );
+      })
+    );
 
 
     
