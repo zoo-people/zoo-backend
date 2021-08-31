@@ -313,6 +313,32 @@ module.exports = [
     diet: 'Carnivore'
   },  
   {
+
+    name: 'Northern spotted owl',
+    species_name: '(Strix occidentalis caurina)',
+    habitat: 'Evergreen Forest',
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NorthernSpottedOwlOregonZoo.jpg/800px-NorthernSpottedOwlOregonZoo.jpg',
+    icon_url: 'https://image.flaticon.com/icons/png/512/5438/5438031.png',
+    description: `The northern spotted owl is one of three spotted owl subspecies. It is a medium-sized dark brown owl native to the Pacific Northwest. 
+    An important indicator species, the northern spotted owl remains threatened due to continued population decline from human-caused habitat destruction. 
+    There are fewer than 6 individuals left in British Columbia, Canada; 1,200 pairs in Oregon, 560 pairs in Northern California, and 500 pairs in Washington. 
+    Washington alone has lost over 90 percent of its old growth forest due to logging which has caused a 40-90 percent decline of the Northern Spotted Owl population. `,
+    diet: 'Carnivore'
+  },
+  {
+    name: 'Northern flying squirrel',
+    species_name: '(Glaucomys sabrinus)',
+    habitat: 'Evergreen Forest',
+    image_url: 'https://www.charismaticplanet.com/wp-content/uploads/2019/10/flying-squirrel.png',
+    icon_url: 'https://image.flaticon.com/icons/png/512/616/616736.png',
+    description: `The Northern flying squirrel is one of the smallest tree squirrels, measuring 10 to 12 inches in total length. It is nocturnal and has large eyes that are 
+    extremely resourceful in the darkest nights. The color of eye shine is a distinctive reddish-orange. Flying squirrels are not capable of flight like birds or bats; instead, they glide between trees. They are able to glide from one tree to another 
+    with the aid of a patagium, a furry, parachute-like membrane that stretches from wrist to ankle. In 2019 it was observed, by chance, that a flying squirrel fluoresced 
+    pink. Subsequent research by biologists at Northland College in Northern Wisconsin found that this is true for all three species of North American flying squirrels. 
+    At this time it is unknown what purpose this serves. Non-flying squirrels do not fluoresce under UV light.[`,
+    diet: 'Omnivore'
+  }
+
     name: 'Plains zebra',
     species_name: '(Equus quagga)',
     habitat_id: 3,
@@ -335,5 +361,6 @@ module.exports = [
     Seven other species are extinct, prehistoric species known from fossils.`,
     diet: 'Herbivore'
   }, 
+
 
 ];
