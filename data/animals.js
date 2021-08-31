@@ -181,6 +181,31 @@ module.exports = [
   },
 
   {
+
+    name: 'Plains zebra',
+    species_name: '(Equus quagga)',
+    habitat_id: 3,
+    image_url: 'https://en.wikipedia.org/wiki/Plains_zebra#/media/File:Equus_quagga_burchellii_-_Etosha,_2014.jpg',
+    icon_url: '',
+    description: `The plains zebra is a highly social species, forming harems with a single stallion, several mares and their recent offspring; bachelor 
+    groups also form. Groups may come together to form herds. 
+    The animals keep watch for predators; they bark or snort when they see a predator and the harem stallion attacks predators to defend his harem..`,
+    diet: 'Herbivore'
+  }, 
+  {
+    name: 'Giraffe',
+    species_name: '(Giraffa)',
+    habitat_id: 3,
+    image_url: 'https://en.wikipedia.org/wiki/Giraffe#/media/File:Giraffe_Mikumi_National_Park.jpg',
+    icon_url: '',
+    description: `the tallest living terrestrial animal and the largest ruminant. It is traditionally considered to be one species, Giraffa camelopardalis, with nine subspecies. 
+    However, the existence of up to nine extant giraffe species has been described, 
+    based upon research into the mitochondrial and nuclear DNA, as well as morphological measurements of Giraffa. 
+    Seven other species are extinct, prehistoric species known from fossils.`,
+    diet: 'Herbivore'
+  }, 
+
+  {
     name: 'Mountain Gorilla',
     species_name: '(Gorilla beringei beringei)',
     habitat_id: 4,
@@ -337,8 +362,79 @@ module.exports = [
             attacks on people have been attributed to animals suffering from rabies. Wolf attacks on humans are rare because wolves are relatively few, live away from 
             people, and have developed a fear of humans because of their experiences with hunters, ranchers, and shepherds.`,
     diet: 'Carnivore'
-  }, 
 
+  },  
+  {
+
+    name: 'Northern spotted owl',
+    species_name: '(Strix occidentalis caurina)',
+    habitat_id: 5,
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NorthernSpottedOwlOregonZoo.jpg/800px-NorthernSpottedOwlOregonZoo.jpg',
+    icon_url: 'https://image.flaticon.com/icons/png/512/5438/5438031.png',
+    description: `The northern spotted owl is one of three spotted owl subspecies. It is a medium-sized dark brown owl native to the Pacific Northwest. 
+    An important indicator species, the northern spotted owl remains threatened due to continued population decline from human-caused habitat destruction. 
+    There are fewer than 6 individuals left in British Columbia, Canada; 1,200 pairs in Oregon, 560 pairs in Northern California, and 500 pairs in Washington. 
+    Washington alone has lost over 90 percent of its old growth forest due to logging which has caused a 40-90 percent decline of the Northern Spotted Owl population. `,
+    diet: 'Carnivore'
+  },
+  {
+    name: 'Northern flying squirrel',
+    species_name: '(Glaucomys sabrinus)',
+    habitat_id: 5,
+    image_url: 'https://www.charismaticplanet.com/wp-content/uploads/2019/10/flying-squirrel.png',
+    icon_url: 'https://image.flaticon.com/icons/png/512/616/616736.png',
+    description: `The Northern flying squirrel is one of the smallest tree squirrels, measuring 10 to 12 inches in total length. It is nocturnal and has large eyes that are 
+    extremely resourceful in the darkest nights. The color of eye shine is a distinctive reddish-orange. Flying squirrels are not capable of flight like birds or bats; instead, they glide between trees. They are able to glide from one tree to another 
+    with the aid of a patagium, a furry, parachute-like membrane that stretches from wrist to ankle. In 2019 it was observed, by chance, that a flying squirrel fluoresced 
+    pink. Subsequent research by biologists at Northland College in Northern Wisconsin found that this is true for all three species of North American flying squirrels. 
+    At this time it is unknown what purpose this serves. Non-flying squirrels do not fluoresce under UV light.[`,
+    diet: 'Omnivore'
+  },
+
+  { 
+    name: 'Border Collie',
+    species_name: '(Canis lupus familiaris)',
+    habitat_id: 6,
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BORDER_COLLIE%2C_Simaro_Million_Dollar_Baby_%2824290879465%29_2.jpg/220px-BORDER_COLLIE%2C_Simaro_Million_Dollar_Baby_%2824290879465%29_2.jpg',
+    icon_url: '',
+    description: 'The border collie is descended from landrace collies, a type found widely in the British Isles. The name for the breed came from its probable place of origin along the Anglo-Scottish border. Mention of the "collie" or "colley" type first appeared toward the end of the 19th century, although the word "collie" is older than this and has its origin in the Scots language. It is also thought that the word "collie" comes from the old Celtic word for useful. Many of the best border collies today can be traced back to a dog known as Old Hemp.',
+    diet: 'Omnivore' 
+  },
+  { 
+    name: 'Tuxedo',
+    species_name: '(Bicolor Cat)',
+    habitat_id: 6,
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Socks-clinton.jpg/300px-Socks-clinton.jpg',
+    icon_url: '',
+    description: 'A tuxedo cat, or Felix cat, or Julius cat is a bicolor cat with a white and black coat. They are called "tuxedo" cats because they appear to be wearing the type of black tie formal wear commonly known in the United States and Canada as a tuxedo. The tuxedo pattern is not limited to the color black, but the name is typically reserved for black and white cats.',
+    diet: 'Omnivore' 
+  },
+  { 
+    name: 'Parrot',
+    species_name: '(Psittaciformes)',
+    habitat_id: 6,
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Macaw_parrot_sitting_on_a_tree_branch.jpg/220px-Macaw_parrot_sitting_on_a_tree_branch.jpg',
+    icon_url: '',
+    description: 'Parrots, along with ravens, crows, jays, and magpies, are among the most intelligent birds, and the ability of some species to imitate human speech enhances their popularity as pets. Trapping wild parrots for the pet trade, as well as hunting, habitat loss, and competition from invasive species, has diminished wild populations, with parrots being subjected to more exploitation than any other group of birds. Measures taken to conserve the habitats of some high-profile charismatic species have also protected many of the less charismatic species living in the same ecosystems.',
+    diet: 'Omnivore' 
+  },
+  { 
+    name: 'Ferret',
+    species_name: '(Mustela furo)',
+    habitat_id: 6,
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ferret_2008.png/220px-Ferret_2008.png',
+    icon_url: '',
+    description: 'For millennia, the main use of ferrets was for hunting, or "ferreting". With their long, lean build, and inquisitive nature, ferrets are very well equipped for getting down holes and chasing rodents, rabbits and moles out of their burrows. Caesar Augustus sent ferrets or mongooses (named viverrae by Plinius) to the Balearic Islands to control the rabbit plagues in 6 BC.',
+    diet: 'Omnivores' 
+  },
+  { 
+    name: 'Leopard Gecko',
+    species_name: '(Eublepharis macularius)',
+    habitat_id: 6,
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Eublepharis_macularius1.jpg/220px-Eublepharis_macularius1.jpg',
+    icon_url: '',
+    description: 'Common leopard geckos have predators such as snakes, foxes, and other large reptiles. Their keen sense of hearing and sight help them escape from them during the night. Along with their exceptional sight and hearing abilities, their skin helps camouflage themselves from their predators. Their sense of taste and smell also helps them with survival. They also stay in underground holes and burrows during the daytime, avoid the risk of getting eaten.',
+    diet: 'Insectivorous' 
+  }
   
-
 ];
