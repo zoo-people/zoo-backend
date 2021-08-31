@@ -8,5 +8,7 @@ module.exports = [
   { name: 'Rain Forest',
     image: 'https://t4.ftcdn.net/jpg/01/99/31/15/360_F_199311558_L9hwUDU5pd4Mc5n5EYA0J90LlvM79v9K.jpg' },
   { name: 'Evergreen Forest',
-    image: 'https://www.maxpixel.net/static/photo/1x/Landscape-Nature-Background-Wallpaper-Illustration-4685547.jpg'  }
+    image: 'https://www.maxpixel.net/static/photo/1x/Landscape-Nature-Background-Wallpaper-Illustration-4685547.jpg'  },
+  { name: 'Living Room',
+    image: 'https://i.pinimg.com/originals/f3/40/23/f34023b3ab9b82c5343a874fa2026215.jpg'  },
 ];
