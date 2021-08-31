@@ -268,7 +268,7 @@ module.exports = [
   {
     name: 'Jaguar',
     species_name: '(Panthera onca)',
-    habitat: 'Rainforests',
+    habitat_id: 4,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Standing_jaguar.jpg/220px-Standing_jaguar.jpg',
     icon_url: '',
     description: 'The adult jaguar is an apex predator, meaning it is at the top of the food chain and is not preyed upon in the wild. The jaguar has also been termed a keystone species, as it is assumed that it controls the population levels of prey such as herbivorous and granivorous mammals, and thus maintains the structural integrity of forest systems. However, accurately determining what effect species like the jaguar have on ecosystems is difficult, because data must be compared from its current habitats and regions where it is absent, and while controlling for the effects of human activity.',
@@ -276,7 +276,7 @@ module.exports = [
   {
     name: 'South-American Coati',
     species_name: '(Nasua nasua)',
-    habitat: 'Rainforests',
+    habitat_id: 4,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg/220px-Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg',
     icon_url: '',
     description: 'South American coatis are diurnal animals, and live both on the ground and in trees. They are omnivorous, but primarily eat fruit, invertebrates, other small animals and bird eggs. They search for fruit in trees high in the canopy, and use their snouts to poke through crevices to find animal prey on the ground. They also search for animal prey by turning over rocks on the ground or ripping open logs with their claws.',
@@ -285,7 +285,7 @@ module.exports = [
   {
     name: 'Keel-Billed Toucan',
     species_name: '(Ramphastos sulfuratus)',
-    habitat: 'Rainforests',
+    habitat_id: 4,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ramphastos_sulfuratus_-Belize_Zoo-6a-2c.jpg/220px-Ramphastos_sulfuratus_-Belize_Zoo-6a-2c.jpg',
     icon_url: '',
     description: 'Like many toucans, keel-billed toucans are very social birds, rarely seen alone. They fly in small flocks of approximately six to twelve individuals through lowland rainforests. Their flight is slow and undulating, consisting of rapid wing beats (six to ten), then a glide with the beak extending forward and dipping downward as though pulling the rest of the bird. Their feet are drawn up forward in flight. The flight distances are typically short.',
