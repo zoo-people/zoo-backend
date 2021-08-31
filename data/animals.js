@@ -401,7 +401,7 @@ module.exports = [
     diet: 'Omnivore' 
   },
   { 
-    name: 'Cat',
+    name: 'Tuxedo',
     species_name: '(Bicolor Cat)',
     habitat_id: 6,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Socks-clinton.jpg/300px-Socks-clinton.jpg',
