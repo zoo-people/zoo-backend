@@ -186,7 +186,7 @@ module.exports = [
     species_name: '(Equus quagga)',
     habitat_id: 3,
     image_url: 'https://en.wikipedia.org/wiki/Plains_zebra#/media/File:Equus_quagga_burchellii_-_Etosha,_2014.jpg',
-    icon_url: '',
+    icon_url: 'https://image.flaticon.com/icons/png/128/371/371744.png',
     description: `The plains zebra is a highly social species, forming harems with a single stallion, several mares and their recent offspring; bachelor 
     groups also form. Groups may come together to form herds. 
     The animals keep watch for predators; they bark or snort when they see a predator and the harem stallion attacks predators to defend his harem..`,
@@ -197,7 +197,7 @@ module.exports = [
     species_name: '(Giraffa)',
     habitat_id: 3,
     image_url: 'https://en.wikipedia.org/wiki/Giraffe#/media/File:Giraffe_Mikumi_National_Park.jpg',
-    icon_url: '',
+    icon_url: 'https://image.flaticon.com/icons/png/128/1018/1018426.png',
     description: `the tallest living terrestrial animal and the largest ruminant. It is traditionally considered to be one species, Giraffa camelopardalis, with nine subspecies. 
     However, the existence of up to nine extant giraffe species has been described, 
     based upon research into the mitochondrial and nuclear DNA, as well as morphological measurements of Giraffa. 
@@ -270,7 +270,7 @@ module.exports = [
     species_name: '(Panthera onca)',
     habitat_id: 4,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Standing_jaguar.jpg/220px-Standing_jaguar.jpg',
-    icon_url: '',
+    icon_url: 'https://image.flaticon.com/icons/png/128/4515/4515532.png',
     description: 'The adult jaguar is an apex predator, meaning it is at the top of the food chain and is not preyed upon in the wild. The jaguar has also been termed a keystone species, as it is assumed that it controls the population levels of prey such as herbivorous and granivorous mammals, and thus maintains the structural integrity of forest systems. However, accurately determining what effect species like the jaguar have on ecosystems is difficult, because data must be compared from its current habitats and regions where it is absent, and while controlling for the effects of human activity.',
     diet: 'Carnivore' },
   {
@@ -278,7 +278,7 @@ module.exports = [
     species_name: '(Nasua nasua)',
     habitat_id: 4,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg/220px-Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg',
-    icon_url: '',
+    icon_url: 'https://image.flaticon.com/icons/png/128/371/371661.png',
     description: 'South American coatis are diurnal animals, and live both on the ground and in trees. They are omnivorous, but primarily eat fruit, invertebrates, other small animals and bird eggs. They search for fruit in trees high in the canopy, and use their snouts to poke through crevices to find animal prey on the ground. They also search for animal prey by turning over rocks on the ground or ripping open logs with their claws.',
     diet: 'Omnivores' },
   
@@ -287,7 +287,7 @@ module.exports = [
     species_name: '(Ramphastos sulfuratus)',
     habitat_id: 4,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ramphastos_sulfuratus_-Belize_Zoo-6a-2c.jpg/220px-Ramphastos_sulfuratus_-Belize_Zoo-6a-2c.jpg',
-    icon_url: '',
+    icon_url: 'https://image.flaticon.com/icons/png/128/917/917835.png',
     description: 'Like many toucans, keel-billed toucans are very social birds, rarely seen alone. They fly in small flocks of approximately six to twelve individuals through lowland rainforests. Their flight is slow and undulating, consisting of rapid wing beats (six to ten), then a glide with the beak extending forward and dipping downward as though pulling the rest of the bird. Their feet are drawn up forward in flight. The flight distances are typically short.',
     diet: 'Omnivores' },
 
@@ -401,11 +401,11 @@ module.exports = [
     diet: 'Omnivore' 
   },
   { 
-    name: 'Tuxedo',
+    name: 'Cat',
     species_name: '(Bicolor Cat)',
     habitat_id: 6,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Socks-clinton.jpg/300px-Socks-clinton.jpg',
-    icon_url: '',
+    icon_url: 'https://image.flaticon.com/icons/png/128/1864/1864640.png',
     description: 'A tuxedo cat, or Felix cat, or Julius cat is a bicolor cat with a white and black coat. They are called "tuxedo" cats because they appear to be wearing the type of black tie formal wear commonly known in the United States and Canada as a tuxedo. The tuxedo pattern is not limited to the color black, but the name is typically reserved for black and white cats.',
     diet: 'Omnivore' 
   },
@@ -414,7 +414,7 @@ module.exports = [
     species_name: '(Psittaciformes)',
     habitat_id: 6,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Macaw_parrot_sitting_on_a_tree_branch.jpg/220px-Macaw_parrot_sitting_on_a_tree_branch.jpg',
-    icon_url: '',
+    icon_url: 'https://image.flaticon.com/icons/png/128/427/427487.png',
     description: 'Parrots, along with ravens, crows, jays, and magpies, are among the most intelligent birds, and the ability of some species to imitate human speech enhances their popularity as pets. Trapping wild parrots for the pet trade, as well as hunting, habitat loss, and competition from invasive species, has diminished wild populations, with parrots being subjected to more exploitation than any other group of birds. Measures taken to conserve the habitats of some high-profile charismatic species have also protected many of the less charismatic species living in the same ecosystems.',
     diet: 'Omnivore' 
   },
@@ -423,7 +423,7 @@ module.exports = [
     species_name: '(Mustela furo)',
     habitat_id: 6,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ferret_2008.png/220px-Ferret_2008.png',
-    icon_url: '',
+    icon_url: 'https://image.flaticon.com/icons/png/128/427/427539.png',
     description: 'For millennia, the main use of ferrets was for hunting, or "ferreting". With their long, lean build, and inquisitive nature, ferrets are very well equipped for getting down holes and chasing rodents, rabbits and moles out of their burrows. Caesar Augustus sent ferrets or mongooses (named viverrae by Plinius) to the Balearic Islands to control the rabbit plagues in 6 BC.',
     diet: 'Omnivores' 
   },
@@ -432,7 +432,7 @@ module.exports = [
     species_name: '(Eublepharis macularius)',
     habitat_id: 6,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Eublepharis_macularius1.jpg/220px-Eublepharis_macularius1.jpg',
-    icon_url: '',
+    icon_url: 'https://image.flaticon.com/icons/png/128/2809/2809932.png',
     description: 'Common leopard geckos have predators such as snakes, foxes, and other large reptiles. Their keen sense of hearing and sight help them escape from them during the night. Along with their exceptional sight and hearing abilities, their skin helps camouflage themselves from their predators. Their sense of taste and smell also helps them with survival. They also stay in underground holes and burrows during the daytime, avoid the risk of getting eaten.',
     diet: 'Insectivorous' 
   }
