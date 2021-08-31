@@ -313,6 +313,7 @@ module.exports = [
     diet: 'Carnivore'
   },  
   {
+
     name: 'Northern spotted owl',
     species_name: '(Strix occidentalis caurina)',
     habitat: 'Evergreen Forest',
@@ -337,5 +338,29 @@ module.exports = [
     At this time it is unknown what purpose this serves. Non-flying squirrels do not fluoresce under UV light.[`,
     diet: 'Omnivore'
   }
+
+    name: 'Plains zebra',
+    species_name: '(Equus quagga)',
+    habitat_id: 3,
+    image_url: 'https://en.wikipedia.org/wiki/Plains_zebra#/media/File:Equus_quagga_burchellii_-_Etosha,_2014.jpg',
+    icon_url: '',
+    description: `The plains zebra is a highly social species, forming harems with a single stallion, several mares and their recent offspring; bachelor 
+    groups also form. Groups may come together to form herds. 
+    The animals keep watch for predators; they bark or snort when they see a predator and the harem stallion attacks predators to defend his harem..`,
+    diet: 'Herbivore'
+  }, 
+  {
+    name: 'Giraffe',
+    species_name: '(Giraffa)',
+    habitat_id: 3,
+    image_url: 'https://en.wikipedia.org/wiki/Giraffe#/media/File:Giraffe_Mikumi_National_Park.jpg',
+    icon_url: '',
+    description: `the tallest living terrestrial animal and the largest ruminant. It is traditionally considered to be one species, Giraffa camelopardalis, with nine subspecies. 
+    However, the existence of up to nine extant giraffe species has been described, 
+    based upon research into the mitochondrial and nuclear DNA, as well as morphological measurements of Giraffa. 
+    Seven other species are extinct, prehistoric species known from fossils.`,
+    diet: 'Herbivore'
+  }, 
+
 
 ];
