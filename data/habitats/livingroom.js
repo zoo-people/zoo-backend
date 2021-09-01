@@ -4,7 +4,7 @@ module.export = [
     species_name: '(Canis lupus familiaris)',
     habitat_id: 6,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BORDER_COLLIE%2C_Simaro_Million_Dollar_Baby_%2824290879465%29_2.jpg/220px-BORDER_COLLIE%2C_Simaro_Million_Dollar_Baby_%2824290879465%29_2.jpg',
-    icon_url: '',
+    icon_url: 'https://cdn-icons-png.flaticon.com/128/616/616720.png',
     description: 'The border collie is descended from landrace collies, a type found widely in the British Isles. The name for the breed came from its probable place of origin along the Anglo-Scottish border. Mention of the "collie" or "colley" type first appeared toward the end of the 19th century, although the word "collie" is older than this and has its origin in the Scots language. It is also thought that the word "collie" comes from the old Celtic word for useful. Many of the best border collies today can be traced back to a dog known as Old Hemp.',
     diet: 'Omnivore' 
   },
