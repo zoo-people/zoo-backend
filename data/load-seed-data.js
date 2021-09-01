@@ -75,8 +75,8 @@ async function run() {
           animal_id
         )
       ${generateValueString(zoo.animal_ids.length)}
-             
 
+      
         RETURNING *;
         `;
         console.log(str);
