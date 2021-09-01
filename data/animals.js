@@ -141,13 +141,13 @@ module.exports = [
   },
 
   { 
-    name: 'x',
-    species_name: '(y)',
+    name: 'Desert Rain Frog',
+    species_name: '(Breviceps macrops)',
     habitat_id: 2,
-    image_url: '',
-    icon_url: '',
-    description: '',
-    diet: '' 
+    image_url: 'https://i.pinimg.com/originals/eb/25/ee/eb25ee34f33e7e5ab28b3792ab77df8f.jpg',
+    icon_url: 'https://image.flaticon.com/icons/png/128/781/781449.png',
+    description: 'The desert rain frog is a species of frog in the family Brevicipitidae. It is found in Namibia and South Africa. Its natural habitat is the narrow strip of sandy shores between the sea and the sand dunes. It is threatened by habitat loss by such factors as mining and tourism. is a species of frog in the family Brevicipitidae. It is found in Namibia and South Africa.[1][2][3] Its natural habitat is the narrow strip of sandy shores between the sea and the sand dunes. It is threatened by habitat loss by such factors as mining and tourism.',
+    diet: 'insectivore' 
   },
 
   
