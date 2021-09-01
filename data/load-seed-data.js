@@ -6,6 +6,7 @@ const animalData = require('./animals.js');
 const zooData = require('./zoos.js');
 const usersData = require('./users.js');
 const { getEmoji } = require('../lib/emoji.js');
+const generateValueString = require('./utils.js');
 run();
 
 async function run() {
@@ -68,16 +69,19 @@ async function run() {
 
     await Promise.all(
       zooData.map(zoo => {
-        return client.query(
-          `
-          INSERT INTO zoos (
-            user_id,
-            animal_id
-          )
-          VALUES ($1, $2)
-          RETURNING *;
-          `,
-          [user.id, zoo.animal_id]
+        let str = `
+        INSERT INTO zoos (
+          user_id,
+          animal_id
+        )
+      ${generateValueString(zoo.animal_ids.length)}
+
+      
+        RETURNING *;
+        `;
+        console.log(str);
+        return client.query(str,
+          [user.id, ...zoo.animal_ids]
         );
       })
     );
