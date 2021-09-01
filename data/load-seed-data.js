@@ -86,6 +86,12 @@ async function run() {
       })
     );
 
+    // await Promise.all(
+    //   zooData.map(zoo => {
+    //     `DELETE FROM zoos WHERE user_id = $1 && animal_id = $2 `
+    //   })
+    // )
+
 
     
 
