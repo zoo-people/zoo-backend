@@ -58,6 +58,27 @@ module.exports = [
     description: 'The wolverine has a reputation for ferocity and strength out of proportion to its size, with the documented ability to kill prey many times larger than itself. Wolverines live primarily in isolated arctic, boreal, and alpine regions.',
     diet: 'omnivore' 
   },
+
+  { 
+    name: 'Canadian Lynx',
+    species_name: '(Lynx canadensis)',
+    habitat_id: 1,
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Canada_lynx_by_Michael_Zahra_%28cropped%29.jpg/220px-Canada_lynx_by_Michael_Zahra_%28cropped%29.jpg',
+    icon_url: 'https://image.flaticon.com/icons/png/512/185/185740.png',
+    description: 'The Canada lynx is a medium-sized North American lynx that ranges across Alaska, Canada, and northern areas of the contiguous United States. It is characterized by its long, dense fur, triangular ears with black tufts at the tips, and broad, snowshoe-like paws. The lynx is a good swimmer and an agile climber. A specialist predator, the Canada lynx depends heavily on the snowshoe hare for food.',
+    diet: 'carnivore' 
+  },
+
+  { 
+    name: 'Arctic Hare',
+    species_name: '(Lepus arcticus)',
+    habitat_id: 1,
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Arctic_Hare_1.jpg/220px-Arctic_Hare_1.jpg',
+    icon_url: 'https://image.flaticon.com/icons/png/128/3867/3867051.png',
+    description: 'The Arctic hare is a species of hare highly adapted to living in the Arctic tundra and other icy biomes. The Arctic hare survives with shortened ears and limbs, a small nose, fat that makes up close to 20% of its body, and a thick coat of fur. It usually digs holes in the ground or under the snow to keep warm and to sleep. Arctic hares look like rabbits but have shorter ears, are taller when standing, and, unlike rabbits, can thrive in extreme cold.',
+    diet: 'herbivore' 
+  },
+
   { 
     name: 'Camel',
     species_name: '(Camelus ferus)',
@@ -108,6 +129,28 @@ module.exports = [
     description: 'The lions fur varies in colour from light buff to dark brown. It has rounded ears and a black tail tuft. Lions usually hunt in groups and prey foremost on ungulates such as gemsbok, Cape buffalo, blue wildebeest, giraffe, common eland, greater kudu, nyala, roan antelope, sable antelope, plains zebra, bushpig, common warthog, hartebeest, common tsessebe, waterbuck, kob and Thomsons gazelle.',
     diet: 'carnivore' 
   },
+
+  { 
+    name: 'Gila Monster',
+    species_name: '(Heloderma suspectum)',
+    habitat_id: 2,
+    image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gila_monster2.JPG/220px-Gila_monster2.JPG',
+    icon_url: 'https://image.flaticon.com/icons/png/128/2682/2682953.png',
+    description: 'The Gila Monster is a species of venomous lizard native to the Southwestern United States and the northwestern Mexican state of Sonora. A heavy, typically slow-moving lizard, up to 60 cm (2.0 ft) long, the Gila monster is the only venomous lizard native to the United States. Its venomous close relatives, the four beaded lizards inhabit Mexico and Guatemala. The Gila monster is sluggish in nature, so not generally dangerous and very rarely a real threat to humans. Yet, its exaggeratedly fearsome reputation has led to its sometimes being killed, in spite of being protected by state law in Arizona',
+    diet: 'carnivore' 
+  },
+
+  { 
+    name: 'x',
+    species_name: '(y)',
+    habitat_id: 2,
+    image_url: '',
+    icon_url: '',
+    description: '',
+    diet: '' 
+  },
+
+  
 
   {
     
