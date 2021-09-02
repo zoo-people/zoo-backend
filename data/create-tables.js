@@ -20,7 +20,7 @@ async function run() {
                   
               CREATE TABLE habitats (
                     id SERIAL PRIMARY KEY,
-                    name VARCHAR(256) NOT NULL,
+                    habitat VARCHAR(256) NOT NULL,
                     image VARCHAR(1200)
               );
               CREATE TABLE animals (

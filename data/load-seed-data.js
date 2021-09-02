@@ -30,11 +30,11 @@ async function run() {
       habitatData.map(habitat => {
         return client.query(
           `
-          INSERT INTO habitats (name, image)
+          INSERT INTO habitats (habitat, image)
           VALUES ($1, $2)
           RETURNING *;
           `,
-          [habitat.name, habitat.image]
+          [habitat.habitat, habitat.image]
         );
       })
     );

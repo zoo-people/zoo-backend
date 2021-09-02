@@ -15,7 +15,7 @@ module.exports = [
     species_name: '(Vulpes lagopus)',
     habitat_id: 1,
     image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Iceland-1979445_%28cropped_3%29.jpg/440px-Iceland-1979445_%28cropped_3%29.jpg',
-    icon_url: 'https://image.flaticon.com/icons/png/512/2247/2247407.png',
+    icon_url: 'https://cdn-icons-png.flaticon.com/128/1998/1998568.png',
     description: 'The Arctic fox, also known as the white fox, polar fox, or snow fox, is a small fox native to the Arctic regions of the Northern Hemisphere and common throughout the Arctic tundra biome. Arctic foxes form monogamous pairs during the breeding season and they stay together to raise their young in complex underground dens. Occasionally, other family members may assist in raising their young.',
     diet: 'omnivores' 
   },
