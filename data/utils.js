@@ -1,3 +1,6 @@
+
+
+
 function generateValueString(num){
   let str = 'VALUES ';
   for (let i = 0; i < num; i++){
@@ -8,5 +11,7 @@ function generateValueString(num){
   }
   return str;
 }
+
+
 
 module.exports = generateValueString;
