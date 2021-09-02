@@ -79,7 +79,7 @@ async function run() {
       
         RETURNING *;
         `;
-        console.log(str);
+        // console.log(str);
         return client.query(str,
           [user.id, ...zoo.animal_ids]
         );
